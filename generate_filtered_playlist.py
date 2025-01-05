@@ -1,55 +1,41 @@
-import requests
-import re
 import json
+import requests
 
-# Load Xtream login details from xtream_login.json
+# Load Xtream credentials
 with open("xtream_login.json", "r") as file:
-    config = json.load(file)
+    credentials = json.load(file)
 
-XTREAM_HOST = config["host"]
-USERNAME = config["username"]
-PASSWORD = config["password"]
+# Xtream API endpoints
+host = credentials["host"]
+username = credentials["username"]
+password = credentials["password"]
 
-# M3U Playlist URL
-M3U_PLAYLIST_URL = f"{XTREAM_HOST}/get.php?username={USERNAME}&password={PASSWORD}&type=m3u_plus&output=ts"
+# Fetch categories
+categories_url = f"{host}/player_api.php?username={username}&password={password}&action=get_live_categories"
+categories_response = requests.get(categories_url)
+categories = categories_response.json()
 
-# Target categories to filter
-TARGET_CATEGORIES = ["India", "Telugu"]
+# Filter for desired category (e.g., "India Channels")
+filtered_category_id = None
+for category in categories:
+    if category["category_name"] == "India Channels":
+        filtered_category_id = category["category_id"]
+        break
 
-# Fetch the M3U playlist
-try:
-    response = requests.get(M3U_PLAYLIST_URL)
-    if response.status_code != 200:
-        print(f"Failed to fetch the M3U playlist. Status code: {response.status_code}")
-        exit()
+if not filtered_category_id:
+    raise Exception("Category not found!")
 
-    m3u_content = response.text
-except Exception as e:
-    print(f"Error fetching the playlist: {e}")
-    exit()
+# Fetch streams for the category
+streams_url = f"{host}/player_api.php?username={username}&password={password}&action=get_live_streams&category_id={filtered_category_id}"
+streams_response = requests.get(streams_url)
+streams = streams_response.json()
 
-# Parse and filter M3U content
-lines = m3u_content.splitlines()
-filtered_playlist = ["#EXTM3U"]
-current_category = None
+# Generate playlist
+playlist = []
+for stream in streams:
+    playlist.append(f"#EXTINF:-1 tvg-logo=\"{stream['stream_icon']}\" group-title=\"{stream['category_name']}\",{stream['name']}")
+    playlist.append(f"{host}/live/{username}/{password}/{stream['stream_id']}.m3u8")
 
-for line in lines:
-    if line.startswith("#EXTINF"):
-        # Extract the category from the EXTINF line
-        category_match = re.search(r'group-title="([^"]+)"', line)
-        if category_match:
-            current_category = category_match.group(1)
-
-        # Add line if category matches
-        if current_category in TARGET_CATEGORIES:
-            filtered_playlist.append(line)
-    elif line.startswith("http") and current_category in TARGET_CATEGORIES:
-        # Add the stream URL
-        filtered_playlist.append(line)
-
-# Save the filtered playlist
-output_file = "filtered_playlist.m3u"
-with open(output_file, "w") as file:
-    file.write("\n".join(filtered_playlist))
-
-print(f"Filtered playlist saved as {output_file}")
+# Save to file
+with open("filtered_playlist.m3u", "w") as file:
+    file.write("\n".join(playlist))
