@@ -23,11 +23,19 @@ if categories_response.status_code != 200:
 
 categories = categories_response.json()
 
-# Fetch all streams and group by category
+# Track unique group titles
 playlist = []
+
+# Filter groups: Only include specified names or those starting with "IND"
+allowed_groups = ["INDIA", "INDIAN", "TELUGU", "CRICKET"]
 
 for category in categories:
     category_name = category["category_name"]
+
+    # Check if the category name is allowed
+    if not (category_name in allowed_groups or category_name.startswith("IND")):
+        continue
+
     category_id = category["category_id"]
 
     # Fetch streams for the current category
@@ -40,8 +48,8 @@ for category in categories:
 
     streams = streams_response.json()
 
-    # Append category header
-    playlist.append(f"# Category: {category_name}")
+    # Add category header
+    playlist.append(f"# Group: {category_name}")
 
     # Add streams to the playlist
     for stream in streams:
