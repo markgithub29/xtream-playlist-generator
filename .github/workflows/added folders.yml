@@ -17,3 +17,11 @@ jobs:
         mkdir -p src/main/res/drawable
         mkdir -p src/main/res/values
         mkdir -p src/main/res/raw
+        
+    - name: Commit Changes
+      run: |
+        git config --global user.name "Your Name"
+        git config --global user.email "your.email@example.com"
+        git add .
+        git commit -m "Create initial folder structure"
+        git push
