@@ -1,0 +1,19 @@
+name: Create Folder Structure
+
+on:
+  workflow_dispatch:
+
+jobs:
+  create-structure:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Create Folder Structure
+      run: |
+        mkdir -p src/main/res/layout
+        mkdir -p src/main/res/drawable
+        mkdir -p src/main/res/values
+        mkdir -p src/main/res/raw
