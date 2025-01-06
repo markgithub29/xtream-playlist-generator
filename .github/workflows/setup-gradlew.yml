@@ -22,4 +22,4 @@ jobs:
         chmod +x gradlew
         git add gradlew gradlew.bat gradle/
         git commit -m "Add Gradle wrapper files"
-        git push
+        git push origin HEAD
