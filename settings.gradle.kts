@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "OneStream"
+rootProject.name = "MyM3UApp"
 include(":app")
