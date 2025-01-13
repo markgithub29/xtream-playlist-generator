@@ -7,7 +7,7 @@ android {
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.yourapp.m3u"
+        applicationId "com.mym3uapp.m3u"
         minSdk 21
         targetSdk 33
         versionCode 1
