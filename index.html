@@ -1,160 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Selection</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
-        .container {
-            background: #ffffff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-            width: 400px;
-        }
-        h1 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        .form-group {
-            margin-bottom: 15px;
-        }
-        label {
-            display: block;
-            margin-bottom: 5px;
-        }
-        input[type="text"], input[type="url"] {
-            width: 100%;
-            padding: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        button {
-            width: 100%;
-            padding: 10px;
-            border: none;
-            border-radius: 4px;
-            background-color: #007bff;
-            color: white;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        button:disabled {
-            background-color: #ccc;
-        }
-        .toggle-section {
-            display: flex;
-            justify-content: space-between;
-            margin-bottom: 15px;
-        }
-        .toggle-section button {
-            flex: 1;
-            margin: 0 5px;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Options</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-color: #f8f9fa;
+      font-family: Arial, sans-serif;
+    }
+    .card {
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      border: none;
+    }
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+    .btn-primary:disabled {
+      background-color: #ccc;
+      border-color: #ccc;
+    }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Login Details</h1>
-
-        <!-- Toggle Options -->
-        <div class="toggle-section">
-            <button id="xtream-btn" onclick="selectOption('xtream')">Xtream Login</button>
-            <button id="mac-btn" onclick="selectOption('mac')">MAC Address</button>
+  <div class="container d-flex justify-content-center align-items-center vh-100">
+    <div class="card p-4 w-100" style="max-width: 500px;">
+      <h2 class="text-center mb-4">Login Options</h2>
+      <form id="login-form">
+        <div class="mb-3">
+          <label for="xtream-login" class="form-label">Xtream Login</label>
+          <input type="text" class="form-control" id="xtream-login" placeholder="Username:Password@Host">
         </div>
-
-        <!-- Xtream Login Form -->
-        <div id="xtream-section" class="form-section">
-            <div class="form-group">
-                <label for="xtream-host">Host Address</label>
-                <input type="url" id="xtream-host" placeholder="Enter Xtream Host">
-            </div>
-            <div class="form-group">
-                <label for="xtream-username">Username</label>
-                <input type="text" id="xtream-username" placeholder="Enter Xtream Username">
-            </div>
-            <div class="form-group">
-                <label for="xtream-password">Password</label>
-                <input type="text" id="xtream-password" placeholder="Enter Xtream Password">
-            </div>
+        <hr class="my-3">
+        <div class="mb-3">
+          <label for="mac-login" class="form-label">Stalker Login (MAC Address)</label>
+          <input type="text" class="form-control" id="mac-login" placeholder="00:1A:2B:3C:4D:5E">
         </div>
-
-        <!-- MAC Address Form -->
-        <div id="mac-section" class="form-section" style="display: none;">
-            <div class="form-group">
-                <label for="mac-host">Host Address</label>
-                <input type="url" id="mac-host" placeholder="Enter Stalker Portal Host">
-            </div>
-            <div class="form-group">
-                <label for="mac-address">MAC Address</label>
-                <input type="text" id="mac-address" placeholder="Enter MAC Address">
-            </div>
-        </div>
-
-        <!-- Submit Button -->
-        <button id="submit-btn" onclick="submitForm()">Submit</button>
+        <button type="submit" class="btn btn-primary w-100 mt-3" id="submit-btn" disabled>Submit</button>
+      </form>
     </div>
+  </div>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const xtreamLogin = document.getElementById('xtream-login');
+    const macLogin = document.getElementById('mac-login');
+    const submitBtn = document.getElementById('submit-btn');
 
-    <script>
-        let selectedOption = "xtream";
+    // Enable the submit button only if one of the fields is filled
+    function validateForm() {
+      if (xtreamLogin.value.trim() || macLogin.value.trim()) {
+        submitBtn.disabled = false;
+      } else {
+        submitBtn.disabled = true;
+      }
+    }
 
-        function selectOption(option) {
-            selectedOption = option;
+    // Add event listeners for real-time validation
+    xtreamLogin.addEventListener('input', validateForm);
+    macLogin.addEventListener('input', validateForm);
 
-            if (option === "xtream") {
-                document.getElementById("xtream-section").style.display = "block";
-                document.getElementById("mac-section").style.display = "none";
-            } else {
-                document.getElementById("xtream-section").style.display = "none";
-                document.getElementById("mac-section").style.display = "block";
-            }
-        }
+    // Handle form submission
+    document.getElementById('login-form').addEventListener('submit', (e) => {
+      e.preventDefault();
 
-        function submitForm() {
-            const xtreamHost = document.getElementById("xtream-host").value.trim();
-            const xtreamUsername = document.getElementById("xtream-username").value.trim();
-            const xtreamPassword = document.getElementById("xtream-password").value.trim();
+      const xtream = xtreamLogin.value.trim();
+      const mac = macLogin.value.trim();
 
-            const macHost = document.getElementById("mac-host").value.trim();
-            const macAddress = document.getElementById("mac-address").value.trim();
+      // Create the xtream_login.json file content
+      const data = xtream
+        ? { type: 'xtream', credentials: xtream }
+        : { type: 'mac', mac_address: mac };
 
-            let payload = {};
+      console.log('Data to be sent:', data);
 
-            if (selectedOption === "xtream") {
-                if (!xtreamHost || !xtreamUsername || !xtreamPassword) {
-                    alert("Please fill in all Xtream details.");
-                    return;
-                }
-                payload = {
-                    host: xtreamHost,
-                    username: xtreamUsername,
-                    password: xtreamPassword,
-                };
-            } else {
-                if (!macHost || !macAddress) {
-                    alert("Please fill in all MAC address details.");
-                    return;
-                }
-                payload = {
-                    host: macHost,
-                    mac_address: macAddress,
-                };
-            }
-
-            // Simulate saving to xtream_login.json
-            console.log("Saving to xtream_login.json:", JSON.stringify(payload, null, 2));
-            alert("Details submitted successfully!");
-        }
-    </script>
+      // For example purposes, we log data instead of saving the file
+      alert('Login data submitted! Check the console for details.');
+    });
+  </script>
 </body>
 </html>
