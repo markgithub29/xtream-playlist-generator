@@ -256,8 +256,6 @@ http://livetvbox.live:8080/live/19421942/19421942/9378.m3u8
 http://livetvbox.live:8080/live/19421942/19421942/172368.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/bm9fqc8/Colors-Cineplex-Bollywood.png" group-title="INDIA HINDI MOVIES",IN: Colors Cineplex Bollywood
 http://livetvbox.live:8080/live/19421942/19421942/37074.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/vZX4Yh3/miniplex-fb.png" group-title="INDIA HINDI MOVIES",IN: MINIPLEX (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/23427.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: &XPLOR (4K)
 http://livetvbox.live:8080/live/19421942/19421942/4082.m3u8
 #EXTINF:-1 tvg-logo="http://geo-iptv.com/channels_icon/74966722731.png" group-title="INDIA HINDI MOVIES",IN: & XPLOR (FHD)
