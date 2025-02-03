@@ -125,39 +125,6 @@ http://livetvbox.live:8080/live/19421942/19421942/394272.m3u8
 http://livetvbox.live:8080/live/19421942/19421942/196347.m3u8
 #EXTINF:-1 tvg-logo="http://stariptv.fun/logos/fastsports.png" group-title="CRICKET",CRI: Fast Sports HD
 http://livetvbox.live:8080/live/19421942/19421942/87460.m3u8
-# Group: INDIA SPORTS
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: STAR SPORTS 1 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98864.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: STAR SPORTS 2 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98865.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: STAR SPORTS 1 HINDI (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98866.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: STAR SPORTS SELECT 1 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98867.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: START SPORTS SELECT 2 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98868.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: TEN 1 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98861.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: TEN 2 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98862.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: TEN 3 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98863.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: SONY TEN 5 (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98870.m3u8
-#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/b/b5/Star_Sports_Select_1_HD.jpg/revision/latest/scale-to-width-down/340?cb=20180806112709" group-title="INDIA SPORTS",IN: Star Sports Select 1 (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9400.m3u8
-#EXTINF:-1 tvg-logo="https://vignette.wikia.nocookie.net/logopedia/images/4/46/Sss-hd2-bronze.png/revision/latest/top-crop/width/220/height/220?cb=20170728104956" group-title="INDIA SPORTS",IN: Star Sports Select 2 (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9401.m3u8
-#EXTINF:-1 tvg-logo="https://i.ytimg.com/vi/QOx79orcb1I/maxresdefault.jpg" group-title="INDIA SPORTS",IN: Sony Ten 1 (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9402.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: Sony Ten 2 (4K)
-http://livetvbox.live:8080/live/19421942/19421942/9403.m3u8
-#EXTINF:-1 tvg-logo="https://tma-live.s3.ap-south-1.amazonaws.com/medias/569ccce68ead0e21236eb474/1565808608783/c9347b41649e4f9d39f547b0d9ffd902.jpg" group-title="INDIA SPORTS",IN: Sony Ten 3 (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9404.m3u8
-#EXTINF:-1 tvg-logo="https://origin-staticv2.sonyliv.com/masthead_logo/SonySIXHD_Masthead_Logo.png" group-title="INDIA SPORTS",IN: SONY TEN 5 (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/17565.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA SPORTS",IN: EUROSPORTS (4K)
-http://livetvbox.live:8080/live/19421942/19421942/23308.m3u8
 # Group: INDIA ENTERTAINMENT
 #EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA ENTERTAINMENT",IN: SONY (4K).
 http://livetvbox.live:8080/live/19421942/19421942/98854.m3u8
@@ -217,61 +184,6 @@ http://livetvbox.live:8080/live/19421942/19421942/382330.m3u8
 http://livetvbox.live:8080/live/19421942/19421942/394273.m3u8
 #EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA ENTERTAINMENT",IN: Zee TV PLUS 1 (4K)
 http://livetvbox.live:8080/live/19421942/19421942/453632.m3u8
-# Group: INDIA HINDI MOVIES
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: SONY MAX (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98857.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: &PICTURE (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98856.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: STAR GOLD (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98858.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: STAR GOLD SELECT (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98859.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: ZEE CINEMA (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98860.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: Colors Cineplex (4K).
-http://livetvbox.live:8080/live/19421942/19421942/98908.m3u8
-#EXTINF:-1 tvg-logo="http://geo-iptv.com/channels_icon_api/07547230daed982fcf56f85dccfb9617.png" group-title="INDIA HINDI MOVIES",IN: SONY MAX HD
-http://livetvbox.live:8080/live/19421942/19421942/151.m3u8
-#EXTINF:-1 tvg-logo="http://geo-iptv.com/channels_icon_api/07547230daed982fcf56f85dccfb9617.png" group-title="INDIA HINDI MOVIES",IN: SONY MAX (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9373.m3u8
-#EXTINF:-1 tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/2016/01/Star_Gold.png" group-title="INDIA HINDI MOVIES",IN: STAR GOLD HD
-http://livetvbox.live:8080/live/19421942/19421942/194.m3u8
-#EXTINF:-1 tvg-logo="https://q7h8x4g8.stackpathcdn.com/wp-content/uploads/2016/01/Star_Gold.png" group-title="INDIA HINDI MOVIES",IN: Star GOLD (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9375.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: STAR GOLD 2 (4K)
-http://livetvbox.live:8080/live/19421942/19421942/157081.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/qkgW1nd/c0a0c8607691347e22942f2b86473199.png" group-title="INDIA HINDI MOVIES",IN: STAR GOLD SELECT HD
-http://livetvbox.live:8080/live/19421942/19421942/210.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/qkgW1nd/c0a0c8607691347e22942f2b86473199.png" group-title="INDIA HINDI MOVIES",IN: Star Gold SELECT (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9376.m3u8
-#EXTINF:-1 tvg-logo="https://d229kpbsb5jevy.cloudfront.net/tv/150/150/bnw/zee-cinema-white.png" group-title="INDIA HINDI MOVIES",IN: ZEE CINEMA HD
-http://livetvbox.live:8080/live/19421942/19421942/230.m3u8
-#EXTINF:-1 tvg-logo="https://www.zeeentertainment.com/wp-content/uploads/2020/04/pictures-HD.png" group-title="INDIA HINDI MOVIES",IN: & PICTURES HD
-http://livetvbox.live:8080/live/19421942/19421942/231.m3u8
-#EXTINF:-1 tvg-logo="https://curl.pk/img/u/0bd18c374b345d10f04ddb205756c3a04671.png" group-title="INDIA HINDI MOVIES",IN: CINEPLEX HD
-http://livetvbox.live:8080/live/19421942/19421942/867.m3u8
-#EXTINF:-1 tvg-logo="https://curl.pk/img/u/0bd18c374b345d10f04ddb205756c3a04671.png" group-title="INDIA HINDI MOVIES",IN: Colors Cineplex (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/9378.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/cc/colors-cineplex-superhits-in.png" group-title="INDIA HINDI MOVIES",IN: COLORS CINEPLEX SUPERHITS
-http://livetvbox.live:8080/live/19421942/19421942/172368.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/bm9fqc8/Colors-Cineplex-Bollywood.png" group-title="INDIA HINDI MOVIES",IN: Colors Cineplex Bollywood
-http://livetvbox.live:8080/live/19421942/19421942/37074.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: &XPLOR (4K)
-http://livetvbox.live:8080/live/19421942/19421942/4082.m3u8
-#EXTINF:-1 tvg-logo="http://geo-iptv.com/channels_icon/74966722731.png" group-title="INDIA HINDI MOVIES",IN: & XPLOR (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/20648.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/2SJhd6X/images.png" group-title="INDIA HINDI MOVIES",IN: MBC BOLLYWOOD (FHD)
-http://livetvbox.live:8080/live/19421942/19421942/20512.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: Zee Cinema +1 (4K)
-http://livetvbox.live:8080/live/19421942/19421942/380449.m3u8
-#EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA HINDI MOVIES",IN: STAR GOLD PLUS 1 (4K)
-http://livetvbox.live:8080/live/19421942/19421942/453613.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIA HINDI MOVIES",Tata Play Bollywood Premiere HD
-http://livetvbox.live:8080/live/19421942/19421942/467485.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIA HINDI MOVIES",Tata Play Hits HD
-http://livetvbox.live:8080/live/19421942/19421942/467494.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIA HINDI MOVIES",Tata Play Theatre HD
-http://livetvbox.live:8080/live/19421942/19421942/467662.m3u8
 # Group: INDIA ENGLISH MOVIES
 #EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="INDIA ENGLISH MOVIES",IN: STAR MOVIE (4K).
 http://livetvbox.live:8080/live/19421942/19421942/98842.m3u8
@@ -635,79 +547,6 @@ http://livetvbox.live:8080/live/19421942/19421942/355556.m3u8
 http://livetvbox.live:8080/live/19421942/19421942/371447.m3u8
 #EXTINF:-1 tvg-logo="" group-title="INDIAN SD",IN: Jinvani
 http://livetvbox.live:8080/live/19421942/19421942/371560.m3u8
-# Group: INDIAN ACTIVE
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Fitness
-http://livetvbox.live:8080/live/19421942/19421942/108880.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Astro Duniya
-http://livetvbox.live:8080/live/19421942/19421942/467223.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Aradhana
-http://livetvbox.live:8080/live/19421942/19421942/467483.m3u8
-#EXTINF:-1 tvg-logo="https://dishtv.mogiio.com/evergreen-classic-logo-large.png" group-title="INDIAN ACTIVE",Tata Play Classic Cinema 
-http://livetvbox.live:8080/live/19421942/19421942/52496.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Classroom
-http://livetvbox.live:8080/live/19421942/19421942/467491.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Cooking
-http://livetvbox.live:8080/live/19421942/19421942/3748.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Dance Studio
-http://livetvbox.live:8080/live/19421942/19421942/467492.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Filmy Safar
-http://livetvbox.live:8080/live/19421942/19421942/467493.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Ibaadat 
-http://livetvbox.live:8080/live/19421942/19421942/3749.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play JEE Prep
-http://livetvbox.live:8080/live/19421942/19421942/467655.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Malayalam Cinema
-http://livetvbox.live:8080/live/19421942/19421942/467656.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Music
-http://livetvbox.live:8080/live/19421942/19421942/467657.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play NEET Prep
-http://livetvbox.live:8080/live/19421942/19421942/467658.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Punjab De Rang  
-http://livetvbox.live:8080/live/19421942/19421942/7724.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play ShortsTV 
-http://livetvbox.live:8080/live/19421942/19421942/52495.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Specials
-http://livetvbox.live:8080/live/19421942/19421942/467659.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Tamil Cinema
-http://livetvbox.live:8080/live/19421942/19421942/467660.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Telugu Cinema
-http://livetvbox.live:8080/live/19421942/19421942/467661.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Vedic Maths
-http://livetvbox.live:8080/live/19421942/19421942/467663.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Videoshala
-http://livetvbox.live:8080/live/19421942/19421942/467664.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Videshi Kahaniyan
-http://livetvbox.live:8080/live/19421942/19421942/7725.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Welcome
-http://livetvbox.live:8080/live/19421942/19421942/467673.m3u8
-#EXTINF:-1 tvg-logo="https://www.lyngsat.com/logo/tv/zz/zee_zindagi_in.png" group-title="INDIAN ACTIVE",Tata Play Zindgi
-http://livetvbox.live:8080/live/19421942/19421942/108882.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Adbhut Kahaniyan
-http://livetvbox.live:8080/live/19421942/19421942/467677.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Anime Local
-http://livetvbox.live:8080/live/19421942/19421942/467679.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Asomiya Monoronjan 
-http://livetvbox.live:8080/live/19421942/19421942/108877.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Beauty
-http://livetvbox.live:8080/live/19421942/19421942/3745.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Bollywood Masala 
-http://livetvbox.live:8080/live/19421942/19421942/108874.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Bollywood Premiere
-http://livetvbox.live:8080/live/19421942/19421942/467684.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Classic TV
-http://livetvbox.live:8080/live/19421942/19421942/467694.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Comedy
-http://livetvbox.live:8080/live/19421942/19421942/467699.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Darshan
-http://livetvbox.live:8080/live/19421942/19421942/467701.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play English in Hindi
-http://livetvbox.live:8080/live/19421942/19421942/467709.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play English in Telugu
-http://livetvbox.live:8080/live/19421942/19421942/467711.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Fun Learn Junior
-http://livetvbox.live:8080/live/19421942/19421942/467712.m3u8
-#EXTINF:-1 tvg-logo="" group-title="INDIAN ACTIVE",Tata Play Gujarati Cinema  
-http://livetvbox.live:8080/live/19421942/19421942/108879.m3u8
 # Group: TELUGU
 #EXTINF:-1 tvg-logo="https://i.ibb.co/p4knk5y/images-4.png" group-title="TELUGU",Telugu: ETV (4K).
 http://livetvbox.live:8080/live/19421942/19421942/98885.m3u8
